@@ -1,0 +1,140 @@
+ /*Css for About Me Page */
+.bio {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.details {
+
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.age, .location {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bio-text {
+    margin-top: 20px;
+}
+
+.bio-text p {
+    margin-top: 5px;
+}
+
+.center{
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 5px
+
+}
+
+h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+
+ /*Css for Contact Page */
+
+
+.containers {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#priority {
+    width: 105px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+ /*CSS for simple calculator*/
+ .calculator {
+     width: 200px;
+     margin: 50px auto;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     padding: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+#display {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
